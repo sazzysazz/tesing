@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #241D25;
+  /* overflow: hidden; */
+}
+.play-background {
+  background: linear-gradient(180deg, #ff2d55 0%, #241d25 100%);
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 2rem;
+}
+.logo {
+  margin-top: -2.5%;
+  width: 150px;
+  margin-left: 5%;
+}
+.header-links {
+  margin-top: -5%;
+  display: flex;
+  gap: 50px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  gap: 100px;
+}
+.header-links a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+.header-links a:hover {
+  color: #ff2d55;
+}
+.cta-button {
+  margin-top: -5%;
+  background: rgba(8, 8, 8, 0.1);
+  color: white;
+  padding: 0.5rem 1rem; /* Adjusted padding for a smaller button */
+  border-radius: 30px;
+  border: none;
+  font-size: 1rem; /* Reduced font size */
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+  width: 150px; /* Adjusted width for a smaller button */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cta-button:hover {
+  background: #e02d4e;
+}
+.heading {
+  color: white;
+  font-family: "Rye", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+  text-align: left;
+  margin: 0 0 1rem 150px;
+}
+.sub-heading {
+  color: white;
+  font-size: 2rem;
+  text-align: left;
+  max-width: 700px;
+  margin-left: 150px;
+  line-height: 1.4;
+}
+.highlight {
+  color: #ff2d55;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+.image-container img {
+  max-width: 100%;
+  height: 550px;
+  margin-top: -15%;
+  margin-left: 10%;
+}
+
+/* Fullscreen overlay menu styles */
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  color: white;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.menu-overlay a {
+  margin: 1rem 0;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+.close-menu {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  font-size: 2rem;
+  cursor: pointer;
+  color: white;
+}
+
+/* Position menu icon on the right */
+.menu-icon {
+  display: none; /* Hide menu icon on desktop */
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+
+/* Section Vision */
+h1{
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h2{
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.text{
+  line-height: 2;
+}
+
+/* End Vision */
+
+
+
+/* Token */
+
+  /* Scoped styles for the Tokenomics section */
+      .tokenomics-container {
+        margin-right:20%;
+        margin-top: 15%;
+        background-color: #1c1c1e;
+        color: #f5f5f5;
+        font-family: Arial, sans-serif;
+      }
+
+      .tokenomics-chart-container {
+        padding: 20px;
+        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .tokenomics-details {
+        margin-right: 1%;
+        margin-top: 3%;
+        padding: 20px;
+      }
+
+      .tokenomics-details h3 {
+        color: #f64747;
+        text-align: left;
+      }
+
+      .tokenomics-details ul {
+        list-style-type: none;
+        padding: 0;
+        text-align: left;
+      }
+
+      .tokenomics-details li {
+        font-size: 1rem;
+        margin-bottom: 8px;
+      }
+
+
+/* end token */
+
+
+
+
+/* Sectsion Roadmap */
+
+.container {
+  /* max-width: 900px; */
+  margin: 0 auto;
+  /* padding: 20px; */
+}
+
+/* Main Title Styling */
+h1 {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+/* About Section */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align items horizontally */
+  text-align: center;  /* Center text */
+}
+
+.about img {
+  max-width: 250px;
+  display: block;
+  margin: -70px auto 20px; /* Center the image and adjust margin */
+}
+
+.about p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: #ddd;
+  text-align: center; /* Center text in the paragraph */
+}
+
+.about p span {
+  color: #ff5959;
+}
+
+
+/* ------- */
+.about-title {
+  color: white;
+  text-align: left;
+  /* margin: 0 0 1rem 150px; */
+}
+.sub-about{
+  color: white;
+  font-size: 20px;
+  /* text-align: left; */
+  /* max-width: 675px;
+  margin-left: 150px; */
+  line-height: 2;
+}
+.highlight {
+  color: #ff2d55;
+}
+.content-about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 2rem;
+}
+.image-container img {
+  max-width: 100%;
+  height: 550px;
+  margin-top: -15%;
+  margin-left: 10%;
+}
+
+/* Roadmap Section */
+
+.roadmap h1 {
+  font-family: "Rye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roadmap-section {
+  margin-bottom: 20px;
+  max-width: 100%;  /* Ensure sections take full width */
+  padding: 0 20px;  /* Add padding for better spacing */
+}
+
+.roadmap-section h3 {
+  /* margin-right: 50%; */
+  font-family: "Rye", serif;
+  color: #ff5959;
+  margin-bottom: 10px;
+}
+
+.roadmap-section ul li{
+line-height: 2;
+}
+
+.roadmap-section li {
+  color: white;
+
+}
+
+
+/* End RoadMap */
+
+
+
+
+.cookie-consent-wrapper {
+  display: flex;
+  justify-content: center; /* Center the content horizontally */
+}
+
+.cookie-consent-container {
+  background-color: #241d25; /* Dark background */
+  width: 100%;
+  padding: 40px 80px 50px; /* Adjusted padding for balance */
+  border-radius: 15px; /* Added rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+}
+
+.cookie-content-grid {
+  display: flex;
+  gap: 20px;
+}
+
+.cookie-info-column {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 100%;
+}
+
+.cookie-info-content {
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: flex-start; /* Changed 'start' to 'flex-start' */
+  font: 16px Poppins, sans-serif;
+}
+
+.cookie-title {
+  margin-left: 0; /* Adjusted to align left */
+  color: rgb(255, 45, 85);
+  font-weight: 600;
+  font-size: 20px; /* Slightly increased font size */
+  line-height: 1.8; /* Improved line height */
+}
+
+.cookie-description {
+  margin-top: 10px;
+  color: #fff;
+  font: 400 16px/26px Inter, sans-serif;
+  margin: 12px 0 0; /* Adjusted margin for better spacing */
+}
+
+.cookie-logo {
+  background-color: #e02d4e;
+  width: 100%; /* Make logo responsive */
+  max-width: 500px; /* Set max width */
+  margin: 20px auto; /* Center the logo */
+  aspect-ratio: 6.99;
+  object-fit: contain;
+}
+
+/* Styles for social media icons */
+.social-media-icons {
+  display: flex;
+  justify-content: center; /* Center the icons horizontally */
+  margin-top: 20px; /* Space above the icons */
+  gap: 5%; /* Space between icons */
+}
+
+.social-media-icons a {
+  margin-top: -3%;
+  font-size: 45px; /* Icon size */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Specific icon colors */
+.social-media-icons .facebook {
+  color: #1b7eff; /* Facebook blue */
+}
+.social-media-icons .telegram {
+  color: #02a3f3; /* Telegram blue */
+}
+
+.social-media-icons .telegram:hover {
+  color: #00a1e5; /* Optionally a lighter blue on hover */
+}
+.social-media-icons .tiktok {
+  color: #ff00008c; /* TikTok pink color */
+}
+
+.social-media-icons .tiktok:hover {
+  color: #ee1d52; /* TikTok blue color on hover */
+}
+
+.social-media-icons .twitter {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.social-media-icons .youtube {
+  color: #ff0000; /* YouTube red */
+}
+
+.social-media-icons a:hover {
+  transform: scale(1.1); /* Slightly enlarge icon on hover */
+}
+#seeMoreLink {
+  display: none;
+  color: red; /* Blue color for the link */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+
+/* End Footer */
+
+
+
+/* Responsive styles */
+@media (max-width: 991px) {
+  .header-links {
+    display: none; /* Hide header links on mobile */
+  }
+  .logo {
+    margin-top: -10%;
+    margin-right: 100%;
+    width: 80px;
+  }
+  .header {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  .play-background {
+    height: auto;
+  }
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .heading,
+  .sub-heading {
+    font-size: 25px;
+    margin-left: 0;
+    text-align: center;
+  }
+  .image-container img {
+    height: auto;
+    margin: 2rem 0;
+  }
+  .menu-icon {
+    margin-top: 2%;
+    display: flex; /* Show menu icon on mobile */
+  }
+
+
+  /* Footer */
+
+  .cookie-consent-container {
+    padding: 20px; /* Ensure padding is consistent */
+}
+
+.cookie-content-grid {
+    flex-direction: column; /* Stack vertically */
+    gap: 10px; /* Adjust gap for better spacing */
+}
+
+.cookie-info-column {
+    width: 100%; /* Full width for the info column */
+}
+
+.cookie-title {
+    font-size: 18px; /* Adjust title font size */
+}
+
+.cookie-description {
+  font-size: 20px; /* Font size for the description */
+  line-height: 1.5; /* Improves readability with proper line spacing */
+  margin: 15px 0; /* Adds margin around the description */
+  color: white; /* Dark gray text color for better contrast */
+}
+
+#moreText {
+  display: none; /* Initially hide the additional text */
+}
+
+#seeMoreLink {
+  display: block;
+  color: red; /* Blue color for the link */
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+#seeMoreLink:hover {
+  text-decoration: underline; /* Adds underline on hover for better UX */
+}
+
+
+.cookie-logo {
+    width: 100%; /* Full width logo for mobile */
+    max-width: 200px; /* Limit the logo size */
+    height: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Adjusted margin */
+}
+.social-media-icons a {
+  font-size: 30px; /* Icon size */
+  transition: transform 0.3s; /* Smooth transition for hover effect */
+  margin-top: -14%;
+}
+
+  /* End Footer */
+}
+
+@media (min-width: 992px) {
+  .menu-icon {
+    display: none; /* Hide menu icon on desktop */
+  }
+}

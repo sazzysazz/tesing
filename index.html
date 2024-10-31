@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Invest in your future with our trusted crypto platform"
+    />
+    <title>Crypto Platform</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rye&display=swap"
+    />
+    <link rel="stylesheet" href="/styleheader.css" />
+  </head>
+
+  <body>
+    <div class="play-background">
+      <!-- Header -->
+      <header class="header" id="home">
+        <img
+          src="photo/very_small_white_powerful_and_strength_rabbit_in_Crescent_Moon_with-removebg-preview.png"
+          alt="Crypto Platform Logo"
+          class="logo"
+        />
+        <nav
+          class="header-links"
+          role="navigation"
+          aria-label="Main navigation"
+        >
+          <a href="#home" role="link">HOME</a>
+          <a href="#about" role="link">ABOUT</a>
+          <a href="#vision" role="link">VISION</a>
+          <a href="#tokenomics" role="link">TOKENOMICS</a>
+          <a href="#roadmap" role="link">ROADMAP</a>
+        </nav>
+        <a
+          href="https://t.me/moontechcommunity"
+          style="text-decoration:none;"
+          class="cta-button"
+          aria-label="Get started"
+        >
+          Get it
+          <i
+            class="fa-brands fa-telegram"
+            style="color: rgb(36, 161, 222); margin-left: 8px; font-size: 1em"
+            aria-hidden="true"
+          ></i>
+        </a>
+        <div class="menu-icon" aria-label="Menu" onclick="toggleMenu()">
+          <i class="fa fa-bars" style="font-size: 24px; color: white"></i>
+        </div>
+      </header>
+      <main class="content">
+        <div>
+          <h1 class="heading">Invest in your future</h1>
+          <p class="sub-heading">
+            Millions of crypto investors trust Kraken,<br />
+            <span class="highlight">the best crypto platform.</span>
+          </p>
+        </div>
+        <div class="image-container">
+          <img
+            src="./photo/rabbit.png"
+            alt="Decorative crypto bunny illustration"
+          />
+        </div>
+      </main>
+    </div>
+
+    <div class="menu-overlay" id="menuOverlay">
+      <span class="close-menu" onclick="toggleMenu()">&times;</span>
+      <a href="#home" role="link">HOME</a>
+      <a href="#about" role="link">ABOUT</a>
+      <a href="#vision" role="link">VISION</a>
+      <a href="#tokenomics" role="link">TOKENOMICS</a>
+      <a href="#roadmap" role="link">ROADMAP</a>
+    </div>
+
+    <script>
+      function toggleMenu() {
+        const overlay = document.getElementById("menuOverlay");
+        overlay.style.display =
+          overlay.style.display === "flex" ? "none" : "flex";
+      }
+    </script>
+    <!-- end of header -->
+    <br /><br />
+    <!-- About -->
+
+    <main class="content-about" id="about">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-12 mb-4 mb-md-0">
+            <div>
+              <h1 class="about-title text-center">About</h1>
+              <p class="sub-about">
+                <span class="text-danger">Welcome to RabBitcoin</span>, the
+                native cryptocurrency of the RabBitcoin ecosystem, designed to
+                empower gamers and investors alike. Built on the secure and
+                efficient TON blockchain, RabBitcoin (RBTC) is not just a token;
+                it's a key that unlocks a world of exciting possibilities in the
+                gaming landscape.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="image-container text-center">
+              <img
+                src="./photo/image-removebg-preview.png"
+                alt="Decorative crypto bunny illustration"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- end of about  -->
+
+    <main class="content-about" id="vision">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 col-12 mb-4 mb-md-0">
+            <div>
+              <h1 class="about-title text-center">Our Vistion</h1>
+              <p class="sub-about">
+                <span class="text-danger">Welcome to RabBitcoin</span> we
+                envision a future where gaming and cryptocurrency converge to
+                create a vibrant and rewarding community. We aim to provide
+                players with real economic opportunities through engaging
+                Play-to-Earn (P2E) games, where every action can lead to
+                tangible rewards. Our mission is to empower users with a
+                seamless and enjoyable gaming experience while maximizing the
+                value of their time and efforts.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="image-container text-center">
+              <img
+                class="remove"
+                src="./photo/image-removebg-preview (1).png"
+                alt="Decorative crypto bunny illustration"
+                class="img-fluid2"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--End  Vistion -->
+
+    <!-- tokenomics -->
+    <section id="tokenomics">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-6 col-12 mb-4 text">
+            <canvas id="tokenomicsChart" width="300" height="300"></canvas>
+          </div>
+          <div class="col-md-6 col-12">
+            <h2 class="text-danger">Tokenomics</h2>
+            <ul class="mt-4 text">
+              <li class="text-light">Seed Round: 10% (100,000,000 tokens)</li>
+              <li class="text-light">
+                Private Round: 15% (150,000,000 tokens)
+              </li>
+              <li class="text-light">Public Sale: 10% (100,000,000 tokens)</li>
+              <li class="text-light">
+                Team and Advisors: 20% (200,000,000 tokens)
+              </li>
+              <li class="text-light">
+                Ecosystem and Rewards: 30% (300,000,000 tokens)
+              </li>
+              <li class="text-light">
+                Marketing and Partnerships: 10% (100,000,000 tokens)
+              </li>
+              <li class="text-light">
+                Liquidity and Reserves: 5% (50,000,000 tokens)
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br /><br /><br />
+    <!--End  tokenomics -->
+
+    <!-- Roadmap -->
+    <section id="roadmap">
+      <div class="container roadmap">
+        <h1 class="text-danger">Roadmap</h1>
+        <br /><br />
+
+        <div class="roadmap-section">
+          <h3 class="text-light">Core Game Development</h3>
+          <ul>
+            <li>
+              <strong>Mechanics & Graphics:</strong> Finalize essential game
+              elements, from gameplay mechanics to visuals, making sure they are
+              appealing and user-friendly.
+            </li>
+          </ul>
+        </div>
+
+        <div class="roadmap-section" style="margin-right: 4%">
+          <h3 class="text-light">Blockchain Integration</h3>
+          <ul>
+            <li>
+              <strong>Token Economy:</strong> Implement an in-game currency or
+              token system, allowing players to earn, spend, and trade within
+              the game.
+            </li>
+            <li>
+              <strong>NFT Ownership:</strong> Enable NFT functionality for
+              unique in-game assets, providing players with real ownership of
+              items they acquire.
+            </li>
+            <li>
+              <strong>Smart Contract Security:</strong> Integrate secure and
+              reliable smart contracts to handle transactions, prioritizing the
+              protection of user assets.
+            </li>
+          </ul>
+        </div>
+
+        <div class="roadmap-section">
+          <h3 class="text-light">Seed Round & Investor Engagement</h3>
+          <ul style="margin-right: 25%">
+            <li>
+              <strong>Funding Launch:</strong> Initiate a seed funding round to
+              attract initial investors, securing capital to drive further
+              development.
+            </li>
+            <li>
+              <strong>Strategic Partnerships:</strong> Target investors with
+              blockchain and gaming expertise who can support both financial and
+              growth needs, enhancing the game's visibility in the market.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <br /><br />
+    <!-- End End of map -->
+
+    <!-- footer -->
+    <footer>
+      <section class="cookie-consent-wrapper">
+        <div class="cookie-consent-container">
+          <div class="cookie-content-grid">
+            <div class="cookie-info-column">
+              <div class="cookie-info-content">
+                <h2 class="cookie-title">
+                  Accept cookies from Moonton on this browser?
+                </h2>
+                <br />
+                <p class="cookie-description">
+                  We use cookies and similar technologies to operate and improve
+                  your browsing experience, analyze and measure how our services
+                  are used, market our website, and measure the effectiveness of
+                  such campaigns.
+                  <span id="moreText">
+                    By clicking "Accept All" below, you are giving us consent to
+                    use all cookies, including non-essential cookies. You may
+                    decline all non-essential cookies by clicking the "Reject
+                    All" to your left. Go to our Cookie Policy to learn how we
+                    use cookies and similar technologies and "Cookie Settings"
+                    to learn how to manage your cookie preferences at any time.
+                  </span>
+                  <a
+                    href="#"
+                    id="seeMoreLink"
+                    onclick="toggleDescription(event)"
+                    >See more</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <br />br
+          <div class="social-media-icons">
+            <a href="https://www.facebook.com" target="_blank" class="facebook">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://t.me/moontechcommunity" target="_blank" class="telegram">
+              <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.tiktok.com" target="_blank" class="tiktok">
+              <i class="fab fa-tiktok"></i>
+            </a>
+            <a href="https://twitter.com" target="_blank" class="twitter">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="https://www.youtube.com" target="_blank" class="youtube">
+              <i class="fab fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+      const ctx = document.getElementById("tokenomicsChart").getContext("2d");
+      const tokenomicsChart = new Chart(ctx, {
+        type: "doughnut",
+        data: {
+          labels: [
+            "Seed Round (10%)",
+            "Private Round (15%)",
+            "Public Sale (10%)",
+            "Team and Advisors (20%)",
+            "Ecosystem and Rewards (30%)",
+            "Marketing and Partnerships (10%)",
+            "Liquidity and Reserves (5%)",
+          ],
+          datasets: [
+            {
+              data: [10, 15, 10, 20, 30, 10, 5],
+              backgroundColor: [
+                "#ffdc00",
+                "#ff4136",
+                "#b10dc9",
+                "#7fdbff",
+                "#2ecc40",
+                "#ff851b",
+                "#001f3f",
+              ],
+              borderWidth: 0,
+            },
+          ],
+        },
+        options: {
+          responsive: true,
+          cutout: "70%",
+          maintainAspectRatio: false, // Allows for custom aspect ratio
+          plugins: {
+            legend: {
+              display: false,
+            },
+            tooltip: {
+              callbacks: {
+                label: function (tooltipItem) {
+                  return tooltipItem.label;
+                },
+              },
+            },
+          },
+        },
+      });
+    </script>
+
+    <script>
+      function toggleDescription(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        const moreText = document.getElementById("moreText");
+        const seeMoreLink = document.getElementById("seeMoreLink");
+
+        if (moreText.style.display === "none") {
+          moreText.style.display = "inline"; // Show the additional text
+          seeMoreLink.innerText = "See less"; // Change the link text
+        } else {
+          moreText.style.display = "none"; // Hide the additional text
+          seeMoreLink.innerText = "See more"; // Change the link text back
+        }
+      }
+    </script>
+  </body>
+</html>
